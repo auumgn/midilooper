@@ -1,6 +1,6 @@
-import { autoDetect, colorHelpers } from 'launchpad.js';
-import { findDevice, onExit } from 'launchpad.js/dist/utils.js';
-import { MidiLooper } from 'launchpad.js/dist/launchpads/MK3/MidiLooper.js';
+import { autoDetect, colorHelpers } from './launchpad.js/index.js';
+import { findDevice, onExit } from './launchpad.js/utils.js';
+import { MidiLooper } from './launchpad.js/launchpads/MK3/MidiLooper.js';
 import midi from 'midi';
 const myArgs = process.argv.slice(2);
 export let debug = false;
